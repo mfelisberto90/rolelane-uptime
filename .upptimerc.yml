@@ -2,11 +2,15 @@
 owner: mfelisberto90 # Your GitHub organization or username, where this repository lives
 repo: rolelane-uptime # The name of this repository
 
+user-agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+
 sites:
   - name: RoleLane Web Platform
     url: https://app.rolelane.co.uk
     expectedStatusCodes:
       - 200
+    headers:
+      - 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
 
 notifications:
   - type: discord
