@@ -5,18 +5,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/app.rolelane.co.uk.ico",
     "slug": "role-lane-web-platform",
     "status": "up",
-    "uptime": "2.73%",
-    "uptimeDay": "2.73%",
-    "uptimeWeek": "2.73%",
-    "uptimeMonth": "2.73%",
-    "uptimeYear": "2.73%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 333,
     "timeDay": 333,
     "timeWeek": 333,
     "timeMonth": 333,
     "timeYear": 333,
-    "dailyMinutesDown": {
-      "2026-10-11": 9
-    }
+    "dailyMinutesDown": {}
   }
 ]
