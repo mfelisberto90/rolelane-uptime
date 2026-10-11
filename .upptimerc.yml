@@ -2,22 +2,23 @@
 owner: mfelisberto90 # Your GitHub organization or username, where this repository lives
 repo: rolelane-uptime # The name of this repository
 
-user-agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+user-agent: 'RoleLane-Upptime-Monitor/1.0 (+https://github.com/mfelisberto90/rolelane-uptime; upptime)'
 
 sites:
   - name: RoleLane Web Platform
     url: https://app.rolelane.co.uk
     expectedStatusCodes:
       - 200
+      - 302
     headers:
-      - 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+      - 'User-Agent: RoleLane-Upptime-Monitor/1.0 (+https://github.com/mfelisberto90/rolelane-uptime; upptime)'
 
 notifications:
   - type: discord
 
 status-website:
   # Add your custom domain name, or remove the cname line if you don't have a domain
-  # Uncomment the aseUrl line if you don't have a custom domain and add your repo name there
+  # Uncomment the baseUrl line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
   baseUrl: /rolelane-uptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
@@ -30,4 +31,4 @@ status-website:
     - title: RoleLane App
       href: https://app.rolelane.co.uk
     - title: GitHub
-      href: https://github.com//
+      href: https://github.com/mfelisberto90/rolelane-uptime
